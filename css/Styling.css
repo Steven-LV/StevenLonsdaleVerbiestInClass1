@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: black;
+}
+
+.product-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 500px;
+    background: white;
+    margin-top: 120px;
+    margin-left: 25%;
+}
+
+.product-card .left-img-col{
+    width: 50vw;
+    height: 500px;
+}
+
+.product-card .left-img-col img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-card .right-info-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    width: 50vw;
+    height: 500px;
+    background: white;
+}
+
+.product-card .right-info-col h3{
+    font-size: 32px;
+    font-weight: 600;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.product-card .right-info-col h5{
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.product-card .right-info-col p{
+    font-size: 14px;
+    padding-left: 50px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.available-colors{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.available-colors span{
+    background: white;
+}
+
+.available-colors .black-color-container{
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+}
+
+.available-colors .red-color-container{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+
+.available-colors .white-color-container{
+    width: 20px;
+    height: 20px;
+    background: beige;
+    border-radius: 50%;
+}
+
+.right-info-col .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.right-info-col .price h4{
+    font-size: 32px;
+    font-weight: 700;
+    background: white;
+}
+
+.right-info-col .price button{
+    width: 150px;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    
+}
